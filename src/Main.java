@@ -9,6 +9,8 @@ public class Main {
 
         try {
 
+
+
             // 使用基本编码
             String base64encodedString = Base64.getEncoder().encodeToString("runoob?java8".getBytes("utf-8"));
             System.out.println("Base64 编码字符串 (基本) :" + base64encodedString);
