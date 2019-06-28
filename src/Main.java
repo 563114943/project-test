@@ -7,13 +7,17 @@ public class Main {
     public static void main(String[] args) {
 
 
+
+
+
+
+
+
         try {
 
-
-            String adds="22";
-
+            String adds = "2222222222222";
             //String adds2="22";
-            adds=adds+"333";
+            adds = adds + "333";
             // 使用基本编码
             String base64encodedString = Base64.getEncoder().encodeToString("runoob?java8".getBytes("utf-8"));
             System.out.println("Base64 编码字符串 (基本) :" + base64encodedString);
@@ -40,7 +44,9 @@ public class Main {
             System.out.println("Error :" + e.getMessage());
         }
 
+
     }
+
 
 
 }
