@@ -8,6 +8,9 @@ public class Main {
         try {
             String adds = "3333333";
             //String adds2="22";
+
+
+
             adds = adds + "333";
             // 使用基本编码
             String base64encodedString = Base64.getEncoder().encodeToString("runoob?java8".getBytes("utf-8"));
