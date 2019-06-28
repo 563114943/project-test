@@ -5,17 +5,8 @@ import java.util.UUID;
 public class Main {
 
     public static void main(String[] args) {
-
-
-
-
-
-
-
-
         try {
-
-            String adds = "2222222222222";
+            String adds = "3333333";
             //String adds2="22";
             adds = adds + "333";
             // 使用基本编码
@@ -29,9 +20,7 @@ public class Main {
             System.out.println("原始字符串: " + new String(base64decodedBytes, "utf-8"));
             base64encodedString = Base64.getUrlEncoder().encodeToString("TutorialsPoint?java8".getBytes("utf-8"));
             System.out.println("Base64 编码字符串 (URL) :" + base64encodedString);
-
             StringBuilder stringBuilder = new StringBuilder();
-
             for (int i = 0; i < 10; ++i) {
                 stringBuilder.append(UUID.randomUUID().toString());
             }
